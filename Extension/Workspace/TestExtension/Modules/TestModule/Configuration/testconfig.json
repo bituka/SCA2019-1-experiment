@@ -1,0 +1,74 @@
+{
+    "type": "object",
+    "group": {
+        "id": "kodellaApp",
+        "title": "Kodella Extensions",
+        "description": "Configuration for Kodella Extension."
+    },
+    "subtab": {
+        "id": "kdTopHeaderExt",
+        "title": "Kodella Top Header Extension",
+        "description": "Configuration for Top Header Links.",
+        "group": "kodellaApp"
+    },
+    "properties": {
+        "topheader.extension.navigationColumn": {
+            "group": "kodellaApp",
+            "subtab": "kdTopHeaderExt",
+            "type": "array",
+            "title": "Top Header Navigation Columns",
+            "description": "Configuration for Top Header Contact Links.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "displaytext": {
+                        "type": "string",
+                        "title": "Display Text",
+                        "description": "Link display text."
+                    },
+                    "iconclass": {
+                        "type": "string",
+                        "title": "Icon Class (Font Awesome)",
+                        "description": ""
+                    },
+                    "href": {
+                        "type": "string",
+                        "title": "URL",
+                        "description": ""
+                    },
+                    "class": {
+                        "type": "string",
+                        "title": "Class Name",
+                        "description": ""
+                    },
+                    "touchpoint": {
+                        "type": "string",
+                        "title": "Data Touchpoint",
+                        "description": ""
+                    },
+                    "hashtag": {
+                        "type": "string",
+                        "title": "Data Hashtag",
+                        "description": ""
+                    },
+                    "target": {
+                        "type": "string",
+                        "title": "Data Target",
+                        "description": ""
+                    }
+                }
+            },
+            "default": [
+                {
+                    "displaytext": "Call (888) 671-2883",
+                    "iconclass": "header-profile-phone-icon",
+                    "href": "#",
+                    "class": "",
+                    "touchpoint": "",
+                    "hashtag": "",
+                    "target": ""
+                }
+            ]
+        }
+    }
+}

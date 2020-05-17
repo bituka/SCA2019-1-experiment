@@ -1,0 +1,67 @@
+{
+  "dbConfig": {
+    "keepalive": false,
+    "port": 7777,
+    "https": false,
+    "key": "KEYPEM",
+    "cert": "CERTPEM"
+  },
+  "scaffolding": {
+    "keepalive": false,
+    "port": 7777
+  },
+  "fetchConfig": {},
+  "extensionMode": true,
+  "preserveManifest": false,
+  "folders": {
+    "source": {
+      "source_path": "Workspace",
+      "extras_path": "Workspace/Extras"
+    },
+    "application_manifest": "Workspace/Extras",
+    "theme": "Extras",
+    "overrides": "Overrides",
+    "output": "LocalDistribution/tmp",
+    "local": "LocalDistribution",
+    "deploy": "DeployDistribution",
+    "extensions_dest_name": "Deploy_Extensions",
+    "extmech_parent": "-15",
+    "extensions_path": [
+      "Workspace/CopyLineItem",
+      "Workspace/KDLCustomSiteSearch",
+      "Workspace/KDLFooterExtension",
+      "Workspace/KDLHomepageCatalog",
+      "Workspace/KDLNavMenu",
+      "Workspace/PDPAdditionalDescription",
+      "Workspace/ProducViewsExt",
+      "Workspace/TestExtension",
+      "Workspace/KDLMenuTreeExtension"
+    ],
+    "theme_path": "Workspace/Extras/Theme",
+    "overrides_path": "Workspace/Extras/Theme/Overrides",
+    "extensions_dest": "9358"
+  },
+  "application": {},
+  "services": {
+    "EXTENSION_SERVICE": {
+      "script": "customscript_ns_sc_ext_mech_restlets",
+      "deploy": "customdeploy_ns_sc_ext_mech_restlets"
+    },
+    "WEBSITE_SERVICE": {
+      "script": "customscript_ext_mech_web_service_rest",
+      "deploy": "customdeploy_ext_mech_web_service_rest"
+    },
+    "FILE_SERVICE": {
+      "script": "customscript_ns_sc_ext_mech_restlets",
+      "deploy": "customdeploy_ns_sc_ext_mech_restlets"
+    }
+  },
+  "deploy_config": {
+    "update": true
+  },
+  "product": "gulp",
+  "config_path": "gulp/config/config.json",
+  "credentials": {
+    "is_scis": false
+  }
+}

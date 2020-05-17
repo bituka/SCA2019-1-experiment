@@ -1,0 +1,56 @@
+{
+    "type": "object",
+    
+    "subtab": {
+        "id": "kdMainNavExt",
+        "title": "Main Navigation Links",
+        "description": "Configuration for Navigation Links.",
+        "group": "kodellaApp"
+    },
+
+    "properties": {
+        "mainNav.extension.navigationColumn": {
+            "group": "kodellaApp",
+            "subtab": "kdMainNavExt",
+            "type": "array",
+            "title": "Navigation Links",
+            "description": "Configuration for Top Header Contact Links.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "displaytext": {
+                        "type": "string",
+                        "title": "Display Text",
+                        "description": "Link display text."
+                    },
+                    "href": {
+                        "type": "string",
+                        "title": "URL",
+                        "description": ""
+                    },
+                    "class": {
+                        "type": "string",
+                        "title": "Class Name",
+                        "description": ""
+                    },
+                    "touchpoint": {
+                        "type": "string",
+                        "title": "Data Touchpoint",
+                        "description": ""
+                    },
+                    "hashtag": {
+                        "type": "string",
+                        "title": "Data Hashtag",
+                        "description": ""
+                    },
+                    "target": {
+                        "type": "string",
+                        "title": "Data Target",
+                        "description": ""
+                    }
+                }
+            }
+        }
+    }
+    
+ }

@@ -1,0 +1,157 @@
+{
+    "type": "object",
+
+    "subtab": {
+        "id": "kdlfooterlinks",
+        "title": "Footer Links",
+        "description": "Configuration for Footer Links.",
+        "group": "kodellaApp"
+    },
+
+    "properties": {
+        "kdlfooterlinks.weAccept.isEnabled": {
+          "group": "kodellaApp"
+        , "subtab": "kdlfooterlinks"
+        , "type": "boolean"
+        , "default": true
+        , "title": "Enable We Accept"
+        }
+		
+	  ,	  "kdlfooterlinks.SecureAndPrivate.isEnabled": {
+          "group": "kodellaApp"
+        , "subtab": "kdlfooterlinks"
+        , "type": "boolean"
+        , "default": true
+        , "title": "Enable Secure and Private"
+        }
+
+    ,   "kdlfooterlinks.Copyright": {
+          "group": "kodellaApp"
+        ,	"subtab": "kdlfooterlinks"
+        ,	"type": "string"
+        ,	"title": "URL"
+        ,	"description": "Enter the Copyright Text"
+        ,	"default": "&copy; 2008-2015 Company Name"
+        }
+
+    ,	  "kdlfooterlinks.NavLinks": {
+          "group": "kodellaApp",
+          "subtab": "kdlfooterlinks",
+          "type": "array",
+          "title": "Footer Navigation Links",
+          "description": "Footer Navigation Links",
+          "items": {
+              "type": "object",
+              "properties": {
+                "displaytext": {
+                    "type": "string",
+                    "title": "Display Text",
+                    "description": "Link display text."
+                },
+                "iconclass": {
+                    "type": "string",
+                    "title": "Icon Class (Font Awesome)",
+                    "description": ""
+                },
+                "href": {
+                    "type": "string",
+                    "title": "URL",
+                    "description": ""
+                },
+                "class": {
+                    "type": "string",
+                    "title": "Class Name",
+                    "description": ""
+                },
+                "touchpoint": {
+                    "type": "string",
+                    "title": "Data Touchpoint",
+                    "description": ""
+                },
+                "hashtag": {
+                    "type": "string",
+                    "title": "Data Hashtag",
+                    "description": ""
+                },
+                "target": {
+                    "type": "string",
+                    "title": "Data Target",
+                    "description": ""
+                }
+            }
+        },
+          "default": [
+            {
+                "displaytext": " Call: (888)-671-2883 *",
+                "iconclass": "",
+                "href": "tel:8886712883",
+                "class": "",
+                "touchpoint": "",
+                "hashtag": "",
+                "target": ""
+            }
+          ]
+        }
+
+    ,	  "kdlfooterlinks.SocialLinks": {
+          "group": "kodellaApp",
+          "subtab": "kdlfooterlinks",
+          "type": "array",
+          "title": "Social Sharing Links",
+          "description": "Social Sharing Links",
+          "items": {
+              "type": "object",
+              "properties": {
+                "displaytext": {
+                    "type": "string",
+                    "title": "Display Text",
+                    "description": "Link display text."
+                },
+                "iconclass": {
+                    "type": "string",
+                    "title": "Icon Class (Font Awesome)",
+                    "description": ""
+                },
+                "href": {
+                    "type": "string",
+                    "title": "URL",
+                    "description": ""
+                },
+                "class": {
+                    "type": "string",
+                    "title": "Class Name",
+                    "description": ""
+                },
+                "touchpoint": {
+                    "type": "string",
+                    "title": "Data Touchpoint",
+                    "description": ""
+                },
+                "hashtag": {
+                    "type": "string",
+                    "title": "Data Hashtag",
+                    "description": ""
+                },
+                "target": {
+                    "type": "string",
+                    "title": "Data Target",
+                    "description": ""
+                }
+            }
+        },
+          "default": [
+            {
+                "displaytext": "Facebook",
+                "iconclass": "a-icon a-icon-fb",
+                "href": "https://www.facebook.com/pages/MROSupply/298927910189281",
+                "class": "",
+                "touchpoint": "",
+                "hashtag": "",
+                "target": ""
+            }
+          ]
+        }
+
+    }
+    
+ }

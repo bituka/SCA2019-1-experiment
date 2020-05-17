@@ -1,0 +1,27 @@
+{
+	"type": "object",
+    "subtab": {
+        "id": "payPo",
+        "title": "Pay with PO",
+        "description": "Pay with PO Link",
+        "group": "kodellaApp"
+    },
+	"properties": {
+		"payPo.displayText": {
+			"group": "kodellaApp"
+		,	"subtab": "payPo"
+		,	"type": "string"
+		,	"title": "Display text"
+		,	"description": "Enter text to display"
+		,	"default": "PAY WITH PO"
+		}
+	,	"payPo.Url": {
+			"group": "kodellaApp"
+		,	"subtab": "payPo"
+		,	"type": "string"
+		,	"title": "URL"
+		,	"description": "Enter the URL of the Pay with link"
+		,	"default": "/accounts/submit_po/"
+		}
+	}
+}

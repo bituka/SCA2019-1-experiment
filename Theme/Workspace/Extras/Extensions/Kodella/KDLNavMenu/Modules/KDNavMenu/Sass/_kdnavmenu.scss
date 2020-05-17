@@ -1,0 +1,103 @@
+//KDL
+
+.kdl-header-nav-menu{
+	display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 16px;
+	line-height: 18px;
+	border-bottom: 1px solid transparent;
+}
+.header-nav-links{
+    background-color: white;
+}
+
+.kdl-header-nav-menu a{
+	color: #1C222B;
+}
+
+.kdl-header-nav-menu a:hover{
+	border-bottom: 1px solid transparent;
+	border-color: #1C222B;
+}
+
+
+//hide old navigation menu for aesthetics which might be needed to be enabled again if needed.
+.header-menu-level1, .header-menu-search{
+	display:none;
+}
+
+.m-site-nav .a-link:first-child {
+    margin-left: 0;
+}
+
+.a-link{
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	padding: 4px 12px;
+	background-color: #2B86CC;
+	cursor: pointer;
+	border: none;
+	box-sizing: border-box;
+	border-radius: 3px;
+	outline: none;
+	text-align: center;
+	line-height: 18px;
+}
+
+.kdl-paypo{
+	float: right;
+    margin-top: 5px;
+}
+
+.categories--open .m-categories-select .a-btn-light {
+    background-color: #DBE2EB;
+}
+
+.m-categories-select .a-btn-light {
+    transition: background-color 0.3s;
+    min-height: 39px;
+    max-height: 39px;
+    padding-left: 23px;
+    padding-right: 45px;
+}
+
+.a-icon-arrow:before, {
+	content: "\E003";
+	font-family: "svgFont2";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+	text-transform: none;
+	font-size: 5px;
+    margin-left: 15px;
+    margin-right: -25px;
+    line-height: 5px;
+    color: #94A8BB;
+}
+
+.m-categories-select .a-btn-light .a-icon-arrow, .m-categories-select .a-btn-light .a-btn-circle .a-icon, .a-btn-circle .m-categories-select .a-btn-light .a-icon, .m-categories-select .a-btn-light .m-smart-categorie--head .a-btn .a-icon-prev, .m-smart-categorie--head .a-btn .m-categories-select .a-btn-light .a-icon-prev, .m-categories-select .a-btn-light .m-smart-categorie--head .a-btn .a-icon-next, .m-smart-categorie--head .a-btn .m-categories-select .a-btn-light .a-icon-next {
+    font-size: 5px;
+    line-height: 5px;
+    color: #94A8BB;
+}
+
+a-icon a-icon-arrow{
+	font-size: 5px;
+    margin-left: 5px;
+}
+
+.js-categories-handler{
+	transition: background-color 0.3s;
+    min-height: 39px;
+    max-height: 39px;
+    padding-left: 23px;
+	padding-right: 45px;
+	border-radius: 3px;
+}

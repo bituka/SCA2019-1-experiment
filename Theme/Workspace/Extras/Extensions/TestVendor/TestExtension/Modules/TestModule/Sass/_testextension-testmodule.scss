@@ -1,0 +1,41 @@
+/*
+	Sass Application Entry Point
+	Link all your sass dependencies in the right order
+
+	Example:
+	@import "other-sass-file.scss";
+	@import "../../<other module>/Sass/other-sass-file.scss";
+*/ 
+
+.testmodule-info-card {
+    @extend .info-card;
+}
+
+.testmodule-info-card-content {
+    @extend .info-card-content;
+    color: $sc-color-secondary;
+    font-weight: bold;
+}
+
+
+//KDL
+
+.kdl-header-nav-menu{
+	display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 16px;
+	line-height: 18px;
+	border-bottom: 1px solid transparent;
+}
+
+.kdl-header-nav-menu a{
+	color: #1C222B;
+}
+
+.kdl-header-nav-menu a:hover{
+	border-bottom: 1px solid transparent;
+	border-color: #1C222B;
+}
