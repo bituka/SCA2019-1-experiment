@@ -35,6 +35,14 @@
       ],
       "KDLMenuTreeExtension": [
         "myaccount"
+      ],
+      "KDLPayPO": [
+        "myaccount"
+      ],
+      "TestimonialExtension": [
+        "shopping",
+        "myaccount",
+        "checkout"
       ]
     }
   }
