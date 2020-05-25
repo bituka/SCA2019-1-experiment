@@ -54,10 +54,7 @@ define('PayPO.Model'
     {
 
         email: {
-            required: function (value, name, form)
-            {
-                return !!form.include_email;
-            }
+            required: true
         ,    pattern: 'email'
         ,    msg: _('Please provide a valid email').translate()
 		}

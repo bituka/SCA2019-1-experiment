@@ -84,39 +84,47 @@
 					  <div class="m-primary-box--content">
 						 <div class="m-save-info-i">
 							<div class="m-purchases-form-i">
-							   <div class="m-purchases-form--item required">
+
+							   <div class="m-purchases-form--item required" data-validation="control-group" data-input="email">
 								  <div class="m-purchases-form--item-i">
 									 <div class="m-purchases-form--item-col">
 										<p class="a-title">Email</p>
 									 </div>
-									 <div class="m-purchases-form--item-col">
-										<div class="a-input-inner">
+									 <div class="m-purchases-form--item-col case-new-form-controls">
+										<div class="a-input-inner" data-validation="control">
 										   <input name="email" class="a-input a-input-light " id="id_email" type="email" value="">
 										</div>
 									 </div>
+
+
 									 <div class="m-purchases-form--item-col"></div>
 								  </div>
 							   </div>
-							   <div class="m-purchases-form--item required">
+
+
+
+							   <div data-validation="control-group" data-input="name" class="m-purchases-form--item required">
 								  <div class="m-purchases-form--item-i">
 									 <div class="m-purchases-form--item-col">
 										<p class="a-title">Your name</p>
 									 </div>
 									 <div class="m-purchases-form--item-col">
-										<div class="a-input-inner">
+										<div class="a-input-inner" data-validation="control">
 										   <input name="name" class="a-input a-input-light " autocomplete="name" id="id_name" type="text" value="">
 										</div>
 									 </div>
 									 <div class="m-purchases-form--item-col"></div>
 								  </div>
 							   </div>
-							   <div class="m-purchases-form--item required">
+
+
+							   <div class="m-purchases-form--item required" data-validation="control-group" data-input="phone">
 								  <div class="m-purchases-form--item-i">
 									 <div class="m-purchases-form--item-col">
 										<p class="a-title">Phone</p>
 									 </div>
 									 <div class="m-purchases-form--item-col">
-										<div class="a-input-inner">
+										<div class="a-input-inner" data-validation="control">
 										   <input name="phone" class="a-input a-input-light " autocomplete="tel" id="id_phone" type="text" value="">
 										</div>
 									 </div>
