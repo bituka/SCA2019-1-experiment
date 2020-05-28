@@ -32,8 +32,11 @@ define(
 				/* console.log('PO Service');
 				var new_case_id = PayPOModel.create(nlapiGetUser() + '',this.data);
 				return PayPOModel.get(new_case_id); */
-
-				return PayPOModel.create(this.data);
+				console.log(JSON.stringify(this.data));
+			 	var file = this.getFile("attachment");
+				console.log(file);		
+ 
+			//	return PayPOModel.create(this.data);
 			}
 
 		,	put: function put()
